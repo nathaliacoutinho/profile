@@ -1,69 +1,72 @@
+html {
+font-size: 16px;
+}
 body{
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #C6D8D3;
-  color: #1d566e;
-  line-height: 1.6em;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+background-color: #C6D8D3;
+color: #1d566e;
+line-height: 1.6em;
 }
 
 h1 {
-  font-size: 22px;
-  color: #409d9b;
+font-size: 2rem;
+color: #409d9b;
 }
 
 h2,
 h3 {
-  font-size: 18px;
-  font-weight: 300
+font-size: 18px;
+font-weight: 300
 }
 
-
-
 a {
-  color: #C6D8D3;
-  text-decoration: none;
+color: #409d9b;
+text-decoration: none;
+display: block;
+transition: color 0.8s ease, transform 1s ease;
 }
 
 a:hover {
-  color: #409d9b;
+  color: #C6D8D3;
+  transform: rotate(180deg);
 }
 
 .container{
-  width: 800px;
-  margin: 0 auto;
+width: 800px;
+margin: 0 auto;
 }
 
 .card{
-  background-color: #FDF0D5;
-  text-align: center;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 4px;
-  border: 1px solid rgba(0,0,0,0.1);
- /* border-radius: 10px;*/
+background-color: #FDF0D5;
+text-align: center;
+padding: 20px;
+margin: 20px;
+border: 1px solid rgba(0,0,0,0.1);
+/* border-radius: 10px;*/
 }
 
 .text-center {
-  text-align: center;
+text-align: center;
 }
 
 /*.banner {
-  text-align: center;
-  background-image: url(images/banner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100% 100vh;
+text-align: center;
+background-image: url(images/banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 100% 100vh;
 }*/
 
 /*.imgs{
-  border-radius: 10px;
+border-radius: 10px;
 
 }*/
 
 #movies {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.6em;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
 }
 
 .list-inline{
@@ -76,27 +79,27 @@ a:hover {
 }
 
 #image-profile {
-    width: 300px;
-    height: 300px;
-    border: 3px solid #cccccc;
+  width: 20vmax;
+  height: 20vmax;
+  border: 3px solid #cccccc;
 }
 
 .image-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #sidebar {
   background-color: #384047;
   text-align: center;
   position: fixed;
-  width: 120px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 30px;
 }
 #page-content {
-  margin-left: 200px;
+  margin-left: 160px;
 }
 
 #sidebar li {
@@ -104,12 +107,14 @@ a:hover {
   margin-bottom: 50px;
 }
 #sidebar ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .fa {
   padding: 10px;
-  }
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
