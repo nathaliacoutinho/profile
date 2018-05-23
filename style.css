@@ -1,4 +1,5 @@
 body{
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   background-color: #C6D8D3;
   color: #1d566e;
@@ -44,6 +45,19 @@ a:hover {
 
 .text-center {
   text-align: center;
+}
+
+.banner {
+  text-align: center;
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100vh;
+}
+
+.imgs{
+  border-radius: 10px;
+
 }
 
 #movies {
