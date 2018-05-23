@@ -19,8 +19,8 @@ h3 {
 
 
 a {
-    color: #409d9b;
-    text-decoration: none;
+  color: #C6D8D3;
+  text-decoration: none;
 }
 
 a:hover {
@@ -59,12 +59,11 @@ a:hover {
   display: inline-block;
   padding-right: 10px;
   padding-left: 10px;
-  color: #f09b;
 }
 
 #image-profile {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     border: 3px solid #cccccc;
 }
 
@@ -72,6 +71,31 @@ a:hover {
     border-radius: 50%;
 }
 
+#sidebar {
+  background-color: #384047;
+  text-align: center;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 20px;
+}
+#page-content {
+  margin-left: 200px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#sidebar ul {
+  list-style: none;
+}
+
+.fa {
+  padding: 10px;
+  }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
